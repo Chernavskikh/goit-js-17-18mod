@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>js 7-8</title>
+
+        <!-- Shared assets -->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/jcarousel.basic.css">
+        <link rel="stylesheet" type="text/css" href="css/checkbox.style.css"/>
+        <link rel="stylesheet" type="text/css" href="css/formstyler.css"/>
+
+
+        <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <script src="js/jquery.color.js"></script>
+        <script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
+        <script type="text/javascript" src="js/jcarousel.basic.js"></script>
+        <script type="text/javascript" src="js/nstcheck.js"></script>
+        <script type="text/javascript" src="js/jquery.formstyler.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+
+<script type="text/javascript">
+    
+
+</script>
+
+    </head>
+
+    <body>
+
+        <div class="wrapper">
+            <h1>Ceramic carousel</h1>
+
+            <div class="jcarousel-wrapper">
+                <div class="jcarousel">
+                    <ul>
+                        <li><img src="img/img1.jpg" width="600" height="400" alt=""></li>
+                        <li><img src="img/img2.jpg" width="600" height="400" alt=""></li>
+                        <li><img src="img/img3.jpg" width="600" height="400" alt=""></li>
+                        <li><img src="img/img4.jpg" width="600" height="400" alt=""></li>    
+                    </ul>
+                </div>
+
+                <p class="photo-credits">
+                    Made by <a href="http://susansimonini.com.au/"> Susan Simonini</a>
+                </p>
+
+                <a href="#" class="jcarousel-control-prev">&lsaquo;</a>
+                <a href="#" class="jcarousel-control-next">&rsaquo;</a>
+                
+                <p class="jcarousel-pagination">
+                    
+                </p>
+            </div>
+        
+<!--/////////////MENU JS ANIMATION///////-->
+<section class="menus-box">
+<h1>Animated menu</h1>
+<nav>
+    <ul>
+        <li><a href="#">Главная</a></li>
+        <li class="dropdown"><a href="#">Категории <span class="simbol">&#x25BC;</span></a>
+            <ul class="sub-menu">
+                <li class="dropdown"><a href="#">Текстиль <span class="simbol">&#x25BA;</span></a>
+                    <ul class="sub-menu">
+                        <li><a href="#">Скатерти</a></li>
+                            <li><a href="#">Шторы</a></li>
+                                <li><a href="#">Покрывала</a></li>
+                              </ul>
+                </li>
+                 <li class="dropdown"><a href="#">Посуда <span class="simbol">&#x25BA;</span></a>
+                    <ul class="sub-menu">
+                        <li><a href="#">Тарелки</a></li>
+                            <li><a href="#">Чашки</a></li>
+                                <li><a href="#">Наборы</a></li>
+                                    </ul>
+                                </li>
+                <li><a href="#">Декор</a></li>      
+            </ul>
+        </li>
+        <li><a href="#">Отзывы</a></li>
+        <li><a href="#">Контакты</a></li>
+    </ul>
+</nav>
+</section>
+<!--///////////JS CHECKBOX///////////////-->
+<section class="checkbox_js-wrapper">
+<h2>JS CHECKBOX</h2>
+<form class="frame-checks-not-standart">
+                <label>
+                    <span class="niceCheck b_n">
+                        <input type="checkbox"/>
+                    </span>
+                    <span class="title">unchecked</span>
+                </label>
+                <label>
+                    <span class="niceCheck b_n">
+                        <input type="checkbox" checked="checked"/>
+                    </span>
+                    <span class="title">checked</span>
+                </label>
+                <label>
+                    <span class="niceCheck b_n">
+                        <input type="checkbox" disabled="disabled" checked="checked"/>
+                    </span>
+                    <span class="title">disabled and checked</span>
+                </label>
+            </form>
+</section>
+<!--///////////CSS CHECKBOX///////////////-->
+<section class="checkbox_css-wrapper">
+<h2>CSS CHECKBOX</h2>
+        <input id="csecond" type="checkbox" name="second" hidden />
+        <label for="csecond">unchecked</label>
+
+        <input id="cfirst" type="checkbox" name="first" checked hidden />
+        <label for="cfirst">checked</label>
+
+        <input id="clast" type="checkbox" name="last" checked hidden disabled />
+        <label for="clast">disabled and checked</label>
+    
+</section>
+<!--///////////JS SELECT///////////////-->
+<section class="select-wrapper">
+<h2>SELECT</h2>
+            <select>
+                    <option>-- Выберите --</option>
+                    <option>Пункт 1</option>
+                    <option>Пункт 2</option>
+                    <option disabled>Пункт 3</option>
+                    <option>Пункт 4</option>
+                    <option>Пункт 5</option>
+                </select>
+
+</section>
+    </div>
+    </body>
+</html>
+    <body>
