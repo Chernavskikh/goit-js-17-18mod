@@ -108,6 +108,7 @@ nav li li ul {
 }
 .sub-menu{
   background-color: #4C6D78;
+  z-index: 999;
 }
 nav li:hover{
   cursor: pointer;
